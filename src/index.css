@@ -29,8 +29,9 @@ body {
 
 .Navigation a {
     display: block;
-    background-color: #ff0000;
+    background-color: #f4f4f4;
     height: 100%;
     line-height: 3.2em;
-    color: white;
+    color: #000;
+    text-decoration: none;
 }
