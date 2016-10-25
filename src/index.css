@@ -13,6 +13,21 @@ body {
   background: black;
 }
 
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.About h2 {
+  color: white;
+  background: #37377b;
+}
+
+.Contact h2 {
+  color: white;
+  background: #7b3772;
+}
+
 .Navigation ul {
   height: 50px;
   background: black;
