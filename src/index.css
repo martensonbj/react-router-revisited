@@ -16,16 +16,19 @@ body {
 h2 {
   text-align: center;
   padding: 20px;
+  color: white;
 }
 
 .About h2 {
-  color: white;
   background: #37377b;
 }
 
 .Contact h2 {
-  color: white;
   background: #7b3772;
+}
+
+.NotFound h2 {
+  background: #ff0089
 }
 
 .Navigation ul {
