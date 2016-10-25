@@ -12,3 +12,25 @@ body {
   color: red;
   background: black;
 }
+
+.Navigation ul {
+  height: 50px;
+  background: black;
+  margin: 0;
+  display: flex;
+  text-align: center;
+}
+
+.Navigation li {
+  flex: 1;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.Navigation a {
+    display: block;
+    background-color: #ff0000;
+    height: 100%;
+    line-height: 3.2em;
+    color: white;
+}

@@ -13,7 +13,7 @@ export default class About extends React.Component {
   render () {
     return (
       <div className="About">
-        <p>About Page</p>
+        <h2>About Page</h2>
 
         <form>
           <input  type="text"
