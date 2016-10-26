@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-import App from './App';
-import About from './About';
+import App from './App/App';
+import About from './About/About';
 import Contact from './Contact';
 import Navigation from './Navigation'
 import NoMatch from './NoMatch';
