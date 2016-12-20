@@ -9,18 +9,23 @@ body {
 }
 
 .active {
-  color: red;
-  background: black;
+  color: black;
+  background: #00ffd5;
+  letter-spacing: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 h2 {
   text-align: center;
   padding: 20px;
+  font-weight: 100;
+  letter-spacing: 10px;
   color: white;
 }
 
 .About h2 {
-  background: #37377b;
+  background: orange;
 }
 
 .Contact h2 {
@@ -29,6 +34,10 @@ h2 {
 
 .NotFound h2 {
   background: #ff0089
+}
+
+.Destination h2 {
+  background: black;
 }
 
 .Navigation ul {
@@ -43,13 +52,47 @@ h2 {
   flex: 1;
   list-style-type: none;
   margin-left: -40px;
+  background-color: #f4f4f4;
+
 }
 
 .Navigation a {
     display: block;
-    background-color: #f4f4f4;
     height: 100%;
     line-height: 3.2em;
     color: #000;
     text-decoration: none;
+}
+
+.Navigation a:hover {
+  color: pink;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+button {
+  height: 54px;
+  border: none;
+  color: black;
+  background-color: fuchsia;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  text-shadow: 1px 1px 5px black;
+  box-shadow: 0px 0px 30px blue;
 }
